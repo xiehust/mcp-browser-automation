@@ -1,0 +1,31 @@
+{
+  "name": "mcp-browser-automation",
+  "version": "1.0.0",
+  "description": "This is demo project to practice Model Context Protocol implemenation for automating browsing",
+  "author": "Harmeet Singh",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "mcp-browser-automation": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.3",
+    "playwright": "1.49.1",
+    "@playwright/browser-chromium": "1.49.1"
+  },
+  "keywords": ["playwright", "automation", "AI", "Claude", "Model Context Protocol"],
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "shx": "^0.3.4",
+    "typescript": "^5.6.2"
+  },
+  "license": "MIT"
+}
