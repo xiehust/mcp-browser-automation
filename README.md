@@ -40,5 +40,5 @@ This is demo project to practice Model Context Protocol based server implemenati
 - Added MCP Server options
 ![Added MCP Server options](./image/AvailableMCPTools.png)
 
-- Navigating to a URL using Claude desktop
-![Navigating to a URL using Claude desktop](./image/MCPToolsUsed.png)
+- Navigating to a URL and doing actions with playwright
+![Navigating to a URL and entering text](./image/UsingMCPServer.png)
