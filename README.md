@@ -16,7 +16,7 @@ This is demo project to practice Model Context Protocol based server implemenati
 
 ## Integration
 
-1. Create a configuration file in `~/Application\ Support/Claude/claude_desktop_config.json`
+1. Create a configuration file in `~/Application\ Support/Claude/claude_desktop_config.json` (This is for macOS)
 2. Copy the following to the file:
 ```json
 {
