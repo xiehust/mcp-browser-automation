@@ -2,6 +2,8 @@
 
 This is demo project to practice Model Context Protocol based server implemenation for automating browsing with Playwright. It interacts with a Claude Desktop client to accept user prompts and use server to control browser.
 
+<a href="https://glama.ai/mcp/servers/hokppvk1dy"><img width="380" height="200" src="https://glama.ai/mcp/servers/hokppvk1dy/badge" alt="Browser Automation Server MCP server" /></a>
+
 ## Pre-requisites
 
 - [Playwright](https://playwright.dev/)
