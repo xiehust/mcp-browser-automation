@@ -137,9 +137,9 @@ export async function handleToolCall(
         // Handle base64 storage
         if (args.storeBase64 !== false) {
           screenshots.set(args.name, base64Screenshot);
-          server.notification({
-            method: "notifications/resources/list_changed",
-          });
+          // server.notification({
+          //   method: "notifications/resources/list_changed",
+          // });
 
           responseContent.push({
             type: "image",
