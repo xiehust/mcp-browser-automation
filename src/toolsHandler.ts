@@ -16,7 +16,7 @@ async function ensureBrowser() {
   if (!browser) {
     browser = await chromium.launch({ headless: false });
     const context = await browser.newContext({
-      viewport: { width: 1920, height: 1080 },
+      viewport: { width: 1366, height: 768 },
       deviceScaleFactor: 1,
     });
 
