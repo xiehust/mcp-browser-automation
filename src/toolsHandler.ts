@@ -263,7 +263,7 @@ export async function handleToolCall(
             Object.assign(console, originalConsole);
             return { result, logs };
           } catch (error) {
-            Object.assign(console, originalConsole);
+            Object.assign(console, originalConsole);  
             throw error;
           }
         }, args.script);
@@ -272,7 +272,7 @@ export async function handleToolCall(
           content: [
             {
               type: "text",
-              text: `Execution result:\n${JSON.stringify(result.result, null, 2)}\n\nConsole output:\n${result.logs.join('\n')}`,
+              text: `Execution result:\n${result.result?JSON.stringify(result.result, null, 2):""}\n\nConsole output:\n${result.logs.join('\n')}`,
             },
           ],
           isError: false,

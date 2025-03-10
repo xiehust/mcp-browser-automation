@@ -18,10 +18,17 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.0.3",
-    "playwright": "1.49.1",
-    "@playwright/browser-chromium": "1.49.1"
+    "@playwright/browser-chromium": "1.49.1",
+    "@playwright/test": "^1.51.0",
+    "playwright": "1.49.1"
   },
-  "keywords": ["playwright", "automation", "AI", "Claude", "Model Context Protocol"],
+  "keywords": [
+    "playwright",
+    "automation",
+    "AI",
+    "Claude",
+    "Model Context Protocol"
+  ],
   "devDependencies": {
     "@types/node": "^20.10.5",
     "shx": "^0.3.4",
